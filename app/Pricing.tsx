@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Heading, HStack, Text } from '@chakra-ui/react'
 import React from 'react'
 
 export default function Pricing() {
@@ -12,8 +12,13 @@ export default function Pricing() {
                     <Button w="200px" h="35px" mt="15px" borderRadius="5px" bg="#805AD5" color="#FFFFFF">Get Started</Button>
                 </Box>
 
-                <Box>
-                    asjdfa
+                <Box pt="50px" pl="25px">
+                    <Text>Access these features when you get this pricing package for your business.</Text>
+                    <HStack>
+                        
+
+                        <Text>International calling and messaging API</Text>
+                    </HStack>
                 </Box>
             </Flex >
         </Box >
