@@ -3,9 +3,9 @@ import React from 'react';
 
 export default function Header() {
     return (
-        <Box textAlign='center' bg="#6B46C1" pt="90px">
+        <Box textAlign='center' bg="#6B46C1" pt="90px" pb="250px" color="white">
             <Heading>Simple pricing for your business</Heading>
-            <Text>Plans that are carefully crafted to suit your busines</Text>
+            <Text pt="10px">Plans that are carefully crafted to suit your busines</Text>
         </Box>
     )
 }
