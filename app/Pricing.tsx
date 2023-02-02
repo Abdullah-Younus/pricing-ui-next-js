@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Pricing() {
     return (
-        <Box width="856px" mx="auto" mt="-200px" bg="white" borderRadius="16px" overflow="hidden" boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25)"}>
+        <Box width="950px" mx="auto" mt="-150px" bg="white" borderRadius="16px" overflow="hidden" boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25)"}>
             <Flex>
                 <Box bg="#F0EAFB" p="64px" textAlign="center">
                     <Text fontWeight="bold" fontSize={"24px"}>Premium PRO</Text>
@@ -12,7 +12,7 @@ export default function Pricing() {
                     <Text>billed just once</Text>
                     <Button w="200px" h="35px" mt="15px" borderRadius="5px" bg="#805AD5" color="#FFFFFF">Get Started</Button>
                 </Box>
-                <Box pt="50px" pl="25px">
+                <Box pt="50px" pl="25px" pr="12px">
                     <Text mt="15px">Access these features when you get this pricing package for your business.</Text>
                     <HStack mb="15px" mt="10px">
                         <Image src="/icons/icon.png" alt="icon" width={12} height={12} />
