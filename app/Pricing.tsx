@@ -4,8 +4,8 @@ import React from 'react';
 
 export default function Pricing() {
     return (
-        <Box width="950px" mx="auto" mt="-150px" bg="white" borderRadius="16px" overflow="hidden" boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25)"}>
-            <Flex>
+        <Box maxW="950px" mx={{ base: "20px", lg: "auto" }} mt="-150px" bg="white" borderRadius="16px" overflow="hidden" boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25)"}>
+            <Flex direction={{ base: 'column', md: 'column', lg: 'row' }} mx="20px">
                 <Box bg="#F0EAFB" p="64px" textAlign="center">
                     <Text fontWeight="bold" fontSize={"24px"}>Premium PRO</Text>
                     <Heading fontSize="60px">$329</Heading>
@@ -32,6 +32,6 @@ export default function Pricing() {
                     </HStack>
                 </Box>
             </Flex>
-        </Box >
+        </Box>
     )
 }
